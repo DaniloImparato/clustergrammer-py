@@ -16,10 +16,11 @@ net.make_clust(
 dist_type='cos'
 ,views=[
     'N_row_sum'
-    ,'N_row_var'
+    # ,'N_row_var'
 ]
-,dendro=True
-,sim_mat=True
+,run_clustering=False
+,dendro=False
+,sim_mat=False
 ,filter_sim=0.1
 ,calc_cat_pval=False
 )
