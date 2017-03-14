@@ -18,8 +18,8 @@ dist_type='cos'
     'N_row_sum'
     # ,'N_row_var'
 ]
-,run_clustering=False
-,dendro=False
+,run_clustering=True
+,dendro=True
 ,sim_mat=False
 ,filter_sim=0.1
 ,calc_cat_pval=False
